@@ -1,0 +1,111 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  darkMode: ['class', '[data-theme="dark"]'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#6366f1',
+          50: '#eef2ff',
+          100: '#e0e7ff',
+          200: '#c7d2fe',
+          300: '#a5b4fc',
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
+          700: '#4338ca',
+          800: '#3730a3',
+          900: '#312e81',
+        },
+        secondary: {
+          DEFAULT: '#8b5cf6',
+          50: '#f5f3ff',
+          100: '#ede9fe',
+          200: '#ddd6fe',
+          300: '#c4b5fd',
+          400: '#a78bfa',
+          500: '#8b5cf6',
+          600: '#7c3aed',
+          700: '#6d28d9',
+          800: '#5b21b6',
+          900: '#4c1d95',
+        },
+        // Light theme colors
+        light: {
+          bg: '#ffffff',
+          surface: '#f8fafc',
+          border: '#e2e8f0',
+          text: '#1e293b',
+          'text-secondary': '#64748b',
+        },
+        // Dark theme colors
+        dark: {
+          bg: '#0f172a',
+          surface: '#1e293b',
+          border: '#334155',
+          text: '#f1f5f9',
+          'text-secondary': '#cbd5e1',
+        },
+        // Theme-aware colors using CSS variables
+        background: 'var(--color-background)',
+        surface: 'var(--color-surface)',
+        border: 'var(--color-border)',
+        text: 'var(--color-text)',
+        'text-secondary': 'var(--color-text-secondary)',
+      },
+      transitionProperty: {
+        'theme': 'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform',
+      },
+      transitionDuration: {
+        'theme': '200ms',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': 'var(--color-text)',
+            '--tw-prose-headings': 'var(--color-text)',
+            '--tw-prose-lead': 'var(--color-text-secondary)',
+            '--tw-prose-links': theme('colors.primary[500]'),
+            '--tw-prose-bold': 'var(--color-text)',
+            '--tw-prose-counters': 'var(--color-text-secondary)',
+            '--tw-prose-bullets': 'var(--color-border)',
+            '--tw-prose-hr': 'var(--color-border)',
+            '--tw-prose-quotes': 'var(--color-text)',
+            '--tw-prose-quote-borders': 'var(--color-border)',
+            '--tw-prose-captions': 'var(--color-text-secondary)',
+            '--tw-prose-code': 'var(--color-text)',
+            '--tw-prose-pre-code': 'var(--color-text-secondary)',
+            '--tw-prose-pre-bg': 'var(--color-surface)',
+            '--tw-prose-th-borders': 'var(--color-border)',
+            '--tw-prose-td-borders': 'var(--color-border)',
+          },
+        },
+        invert: {
+          css: {
+            '--tw-prose-body': theme('colors.slate[300]'),
+            '--tw-prose-headings': theme('colors.slate[100]'),
+            '--tw-prose-lead': theme('colors.slate[300]'),
+            '--tw-prose-links': theme('colors.primary[400]'),
+            '--tw-prose-bold': theme('colors.slate[100]'),
+            '--tw-prose-counters': theme('colors.slate[400]'),
+            '--tw-prose-bullets': theme('colors.slate[600]'),
+            '--tw-prose-hr': theme('colors.slate[700]'),
+            '--tw-prose-quotes': theme('colors.slate[100]'),
+            '--tw-prose-quote-borders': theme('colors.slate[700]'),
+            '--tw-prose-captions': theme('colors.slate[400]'),
+            '--tw-prose-code': theme('colors.slate[100]'),
+            '--tw-prose-pre-code': theme('colors.slate[300]'),
+            '--tw-prose-pre-bg': theme('colors.slate[900]'),
+            '--tw-prose-th-borders': theme('colors.slate[600]'),
+            '--tw-prose-td-borders': theme('colors.slate[700]'),
+          },
+        },
+      }),
+    },
+  },
+  plugins: [require('@tailwindcss/typography')],
+}
