@@ -4,7 +4,7 @@ description: "Pelajari bagaimana AI dan otomasi dapat mengubah bisnis Anda, meni
 publishDate: 2024-01-15
 category: "AI Strategy"
 tags: ["AI", "Automation", "Business", "Digital Transformation"]
-author: "AI Edu-Blog Team"
+author: "TeknoPulse Team"
 ---
 
 # Transformasi Bisnis dengan AI dan Otomasi: Panduan Lengkap 2024
@@ -179,4 +179,4 @@ Siap untuk memulai transformasi AI di bisnis Anda? [Hubungi kami](/contact) untu
 
 ---
 
-*Artikel ini merupakan bagian dari seri "AI Business Transformation" di AI Edu-Blog. Subscribe newsletter kami untuk mendapatkan update artikel terbaru tentang AI, machine learning, dan automation.*
+*Artikel ini merupakan bagian dari seri "AI Business Transformation" di TeknoPulse. Subscribe newsletter kami untuk mendapatkan update artikel terbaru tentang AI, machine learning, dan automation.*

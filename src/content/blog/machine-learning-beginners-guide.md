@@ -4,7 +4,7 @@ description: "Panduan lengkap machine learning untuk pemula, dari konsep dasar h
 publishDate: 2024-01-10
 category: "Machine Learning"
 tags: ["Machine Learning", "Python", "AI", "Tutorial", "Beginner"]
-author: "AI Edu-Blog Team"
+author: "TeknoPulse Team"
 ---
 
 # Machine Learning untuk Pemula: Panduan Praktis Memulai Journey AI Anda
@@ -310,4 +310,4 @@ Ready untuk memulai ML journey Anda? Start dengan project sederhana hari ini dan
 
 ---
 
-*Ingin guidance lebih personal dalam mempelajari Machine Learning? [Contact kami](/contact) untuk mentoring session atau join komunitas learner kami.*
+*Ingin guidance lebih personal dalam mempelajari Machine Learning? [Contact kami](/contact) untuk mentoring session atau join komunitas learner kami di TeknoPulse.*

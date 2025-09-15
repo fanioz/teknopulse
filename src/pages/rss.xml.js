@@ -5,7 +5,7 @@ export async function GET(context) {
   const posts = await getCollection('blog');
   
   return rss({
-    title: 'AI Edu-Blog',
+    title: 'TeknoPulse',
     description: 'Latest insights on AI, machine learning, and automation technologies',
     site: context.site,
     items: posts.map((post) => ({

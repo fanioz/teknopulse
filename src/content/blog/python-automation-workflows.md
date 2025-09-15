@@ -4,7 +4,7 @@ description: "Pelajari cara mengotomatisasi task harian Anda dengan Python. Dari
 publishDate: 2024-01-08
 category: "Automation"
 tags: ["Python", "Automation", "Productivity", "Scripting", "Workflow"]
-author: "AI Edu-Blog Team"
+author: "TeknoPulse Team"
 ---
 
 # Otomasi Workflow dengan Python: Dari Manual ke Otomatis dalam 30 Hari

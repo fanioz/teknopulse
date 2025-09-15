@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-ai-edu-blog.vercel.app',
+  site: 'https://teknopulse.vercel.app',
   integrations: [
     tailwind({
       applyBaseStyles: false,
