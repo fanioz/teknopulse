@@ -8,8 +8,8 @@ const featuredPosts = posts.slice(0, 3);
 <section class="section-padding">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-4xl font-bold text-dark-text mb-4">Featured Articles</h2>
-      <p class="text-xl text-dark-text-secondary max-w-2xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-black mb-4">Featured Articles</h2>
+      <p class="text-xl text-black max-w-2xl mx-auto">
         Latest insights and tutorials on AI, machine learning, and automation technologies
       </p>
     </div>
@@ -28,18 +28,18 @@ const featuredPosts = posts.slice(0, 3);
               <span class="bg-primary/10 text-primary px-2 py-1 rounded-full">
                 {post.data.category || 'AI'}
               </span>
-              <span class="text-dark-text-secondary">
+              <span class="text-black">
                 {post.data.publishDate ? new Date(post.data.publishDate).toLocaleDateString('id-ID') : ''}
               </span>
             </div>
             
-            <h3 class="text-xl font-semibold text-dark-text group-hover:text-primary transition-colors">
+            <h3 class="text-xl font-semibold text-black group-hover:text-primary transition-colors">
               <a href={`/blog/${post.slug}`}>
                 {post.data.title}
               </a>
             </h3>
             
-            <p class="text-dark-text-secondary line-clamp-3">
+            <p class="text-black line-clamp-3">
               {post.data.description}
             </p>
             
